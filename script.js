@@ -32,7 +32,7 @@ function listarProdutos() {
     produtos.forEach((p, index) => {
         tabela.innerHTML += `
             <tr>
-                <td><img src="${p.imagem}" onerror="this.src='https://via.placeholder.com/60'"></td>
+                <td><img src="${p.imagem}" onerror="this.src='https://img.freepik.com/vetores-premium/emoticon-de-alta-qualidade-emoji-perseverante-rosto-desamparado-com-olhos-franzidos-emoji-de-rosto-amarelo-elemento-popular_686498-2680.jpg?semt=ais_hybrid&w=740&q=80'"></td>
                 <td>${p.nome}</td>
                 <td>${p.categoria}</td>
                 <td>${p.preco}</td>
@@ -90,3 +90,4 @@ document.getElementById("btnCancelar").addEventListener("click", function() {
     limparCampos();
     this.style.display = "none";
 });
+
